@@ -1,0 +1,31 @@
+* {
+    align-items: center;
+}
+
+.external {
+    color: blue;
+}
+
+.box1 {
+    border: 2px solid black;
+    width: 50%;
+    height: 100px;
+    background-color: bisque;
+}
+
+.box2 {
+    border: 2px double rgb(53, 0, 105);
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.411);
+    align-items: center;
+}
