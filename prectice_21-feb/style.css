@@ -1,0 +1,91 @@
+.main-cont-block {
+    background-color: rgb(100, 57, 0);
+}
+
+.box-block {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 166, 0);
+    padding: 10px;
+    margin: 20px;
+    display: block;
+}
+
+.main-cont-inline {
+    background-color: rgb(0, 11, 15);
+    margin: 20px;
+}
+
+.box-inline {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    padding: 10px;
+    margin: 20px;
+    display: inline;
+}
+
+.main-cont-inlblock {
+    background-color: lightpink;
+}
+
+.box-inlblock {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.main-cont-flex {
+    background-color: greenyellow;
+    display: flex;
+    /* flex-direction: row-reverse;
+    justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    /* align-content: flex-end; */
+    flex-wrap: wrap;
+}
+
+.box-flex {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.ass-cont {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 340px;
+    height: 100px;
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+    /* display: inline-block; */
+}
+
+.main {
+    border: 1.7px solid red;
+    margin: 13px;
+    padding: 20px;
+}
+
+li {
+    padding: 2px;
+}
+
+input {
+    margin-right: 15px;
+    padding-bottom: 8px;
+}
