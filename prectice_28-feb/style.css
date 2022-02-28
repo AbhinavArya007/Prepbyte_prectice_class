@@ -1,0 +1,44 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.box-shadow{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 3px 0px 20px 1px black;
+    text-align: center;
+}
+.text-shadow{
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+    box-shadow: inset 3px 0px 20px 1px black;
+
+}
+.trans{
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    transition: width 3s ease-in 1s;
+}
+.trans:hover{
+    width: 500px;
+}
+.triangle{
+    width: 0px ;
+    height: 0px;
+    border-top: 50px solid red;
+    border-bottom: 50px  solid blue;
+    border-left: 50px solid black;
+    border-right: 50px solid orange;
+    transition: transform 5s;
+
+}
+.triangle:hover{
+    transform: rotate(360deg);
+}
